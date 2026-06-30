@@ -1,0 +1,15 @@
+{
+  "name": "feedico-api-node-example",
+  "version": "1.0.0",
+  "description": "Node.js starter for Feedico merchants and coupons API",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "merchants": "node examples/merchants.mjs",
+    "coupons": "node examples/coupons.mjs",
+    "start": "node examples/merchants.mjs && node examples/coupons.mjs"
+  }
+}
